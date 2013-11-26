@@ -69,6 +69,11 @@ GITHUBTARBALL
     sudo (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-tmux
+  specs:
+    tmux (1.0.2)
+
+GITHUBTARBALL
   remote: boxen/puppet-vlc
   specs:
     vlc (1.0.5)
@@ -94,5 +99,6 @@ DEPENDENCIES
   ruby (= 6.7.2)
   stdlib (= 4.1.0)
   sudo (= 1.0.0)
+  tmux (>= 0)
   vlc (>= 0)
 
