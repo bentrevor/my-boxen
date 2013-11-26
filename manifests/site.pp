@@ -53,7 +53,7 @@ Homebrew::Formula <| |> -> Package <| |>
 
 node default {
   # core modules, needed for most things
-  include dnsmasq
+  # include dnsmasq
   include git
   include hub
   include nginx
@@ -64,9 +64,9 @@ node default {
   }
 
   # node versions
-  include nodejs::v0_6
-  include nodejs::v0_8
-  include nodejs::v0_10
+  # include nodejs::v0_6
+  # include nodejs::v0_8
+  # include nodejs::v0_10
 
   # default ruby versions
   include ruby::1_8_7
@@ -95,8 +95,8 @@ node default {
   # include flux
   # include skype
   # include tmux
-  include vagrant
+  # include vagrant
   # include virtualbox
-  # include vlc
+  include vlc
   # include zsh
 }
