@@ -94,7 +94,7 @@ node default {
   # include firefox
   # include flux
   # include skype
-  # include tmux
+  include tmux
   # include vagrant
   # include virtualbox
   include vlc
