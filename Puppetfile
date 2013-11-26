@@ -34,8 +34,12 @@ github "boxen", "3.3.4"
 # Core modules for a basic development environment. You can replace
 # some/most of these if you want, but it's not recommended.
 
+github "chrome"
 github "dnsmasq",      "1.0.0"
+github "evernote"
 github "foreman",      "1.0.0"
+github "firefox"
+github "flux"
 github "gcc",          "2.0.1"
 github "git",          "1.2.5"
 github "go",           "1.0.0"
@@ -45,15 +49,20 @@ github "inifile",      "1.0.0", :repo => "puppetlabs/puppetlabs-inifile"
 github "nginx",        "1.4.2"
 github "nodejs",       "3.3.0"
 github "openssl",      "1.0.0"
+github "osx"
 github "phantomjs",    "2.0.2"
 github "pkgconfig",    "1.0.0"
 github "repository",   "2.2.0"
 github "ruby",         "6.7.2"
+github "skype"
 github "stdlib",       "4.1.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",         "1.0.0"
+github "tmux"
 github "vagrant"
 github "virtualbox"
+github "vlc"
 github "xquartz",      "1.1.0"
+github "zsh"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
