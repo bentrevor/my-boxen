@@ -93,10 +93,10 @@ node default {
   # include evernote
   # include firefox
   # include flux
-  include skype
-  include tmux
+  # include skype
+  # include tmux
   include vagrant
   # include virtualbox
-  include vlc
-  include zsh
+  # include vlc
+  # include zsh
 }
