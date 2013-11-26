@@ -66,3 +66,16 @@ github "zsh"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+github "chrome"
+github "evernote"
+github "firefox"
+github "flux"
+github "osx"
+github "skype"
+github "tmux"
+github "vagrant"
+github "virtualbox"
+github "vlc"
+github "zsh"
+
