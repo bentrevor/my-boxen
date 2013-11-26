@@ -91,12 +91,12 @@ node default {
   # my things
   # include chrome
   # include evernote
-  include firefox
-  include flux
+  # include firefox
+  # include flux
   include skype
   include tmux
   include vagrant
-  include virtualbox
+  # include virtualbox
   include vlc
   include zsh
 }
