@@ -74,18 +74,6 @@ node default {
   include ruby::1_9_3
   include ruby::2_0_0
 
-	# my things
-	# include chrome
-	# include evernote
-	include firefox
-	include flux
-	include skype
-	include tmux
-	include vagrant
-	include virtualbox
-	include vlc
-	include zsh
-
   # common, useful packages
   package {
     [
@@ -100,4 +88,16 @@ node default {
     ensure => link,
     target => $boxen::config::repodir
   }
+
+  # my things
+  # include chrome
+  # include evernote
+  include firefox
+  include flux
+  include skype
+  include tmux
+  include vagrant
+  include virtualbox
+  include vlc
+  include zsh
 }
